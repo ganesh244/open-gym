@@ -7,6 +7,8 @@ data/
 
 # Local config
 .env
+.env*.local
+*.local
 
 # Build output / deps
 frontend/dist/

@@ -56,6 +56,7 @@ export default defineConfig({
   plugins: [react(), umami, swStamp],
   base: './',
   server: {
+    port: 8080,
     // The Coach's core (payload, validator, prompts, HTTP adapters) lives in ../api/coach/core
     // and is imported by the phone build. vite build and vitest already reach it; the dev
     // server needs to be told the workspace is wider than frontend/.
